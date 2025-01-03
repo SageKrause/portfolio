@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sage Krause's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        nav {
+            background: #007acc;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 5rem 1rem;
+            background: #007acc;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+        section {
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .projects {
+            background: #f4f4f4;
+            padding: 2rem 1rem;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .project-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        .project-card .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #007acc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .project-card .btn:hover {
+            background: #005fa3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+        }
+
+        footer a {
+            color: #007acc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="hero">
+        <h1>Sage Krause</h1>
+        <p>Aspiring Cybersecurity and Software Professional</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a cybersecurity and software professional with expertise in web application development, full-stack engineering, and cybersecurity-focused projects. I thrive on creating innovative solutions to real-world challenges.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Portfolio Projects</h2>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>CyberLab</h3>
+                <p>A remote lab platform for cybersecurity students.</p>
+                <p><strong>Technologies:</strong> Angular, Node.js, MongoDB</p>
+                <a href="cyberlab.html" class="btn">Learn More</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>RSA Public-Key Encryption</h3>
+                <p>Exploring RSA encryption and digital signatures.</p>
+                <p><strong>Technologies:</strong> OpenSSL, C</p>
+                <a href="rsa.html" class="btn">Learn More</a>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3>SecureVault</h3>
+                <p>A secure password management system.</p>
+                <p><strong>Technologies:</strong> React, Node.js, AES-256</p>
+                <a href="securevault.html" class="btn">Learn More</a>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card">
+                <h3>CyberRisk Monitor</h3>
+                <p>A risk assessment and management tool.</p>
+                <p><strong>Technologies:</strong> Python, Django</p>
+                <a href="cyberrisk.html" class="btn">Learn More</a>
+            </div>
+            <!-- Project 5 -->
+            <div class="project-card">
+                <h3>Calculator Testing</h3>
+                <p>Ensuring software quality with test plans.</p>
+                <p><strong>Technologies:</strong> Manual Testing</p>
+                <a href="calculator.html" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:sage.krause@example.com">sage.krause@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/sage-krause">linkedin.com/in/sage-krause</a></p>
+        <p>GitHub: <a href="https://github.com/SageKrause">github.com/SageKrause</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sage Krause. All rights reserved.</p>
+    </footer>
+</body>
+</html>
